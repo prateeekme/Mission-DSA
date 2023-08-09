@@ -6,9 +6,9 @@ public class EvenOdd{
 
         System.out.println("Enter any Integer number: ");
 
-        Scanner scanner = new Scanner(System.in);
-        num = scanner.nextInt();
-
+        try (Scanner scanner = new Scanner(System.in)) {
+            num = scanner.nextInt();
+        }
         if(num % 2 ==0){
             System.out.println("The number is even");
         }
@@ -17,4 +17,4 @@ public class EvenOdd{
         }
         
     }
-}
+}33
