@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SimpleIntrest {
+public class SimpleInterest {
 
     public static void main(String[] args) {
         
