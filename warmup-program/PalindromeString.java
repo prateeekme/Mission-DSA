@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class PalindromeSring {
+public class PalindromeString {
     public static void main(String[] args) {
         String inputPalindrome = JOptionPane.showInputDialog("Please enter a palindrome:");
         String resultantString = "";
