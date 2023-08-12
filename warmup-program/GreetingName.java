@@ -1,3 +1,7 @@
+/**
+ * The GreetingName class prompts the user to enter their name and then prints a greeting message with
+ * their name.
+ */
 import java.util.Scanner;
 
 public class GreetingName {
