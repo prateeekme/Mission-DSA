@@ -1,3 +1,7 @@
+/**
+ * The FindLargeNumber class compares two numbers entered by the user and prints whether the first
+ * number is larger than the second or vice versa.
+ */
 import java.util.Scanner;
 
 public class FindLargeNumber {
