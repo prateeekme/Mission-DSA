@@ -1,3 +1,7 @@
+/**
+ * The above Java class calculates the simple interest based on the principal amount, time, and rate of
+ * interest entered by the user.
+ */
 import java.util.Scanner;
 
 public class SimpleInterest {
