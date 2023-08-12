@@ -1,3 +1,6 @@
+/**
+ * The Fibonacci class calculates and prints the Fibonacci sequence up to a given count.
+ */
 import java.util.Scanner;
 
 public class Fibonacci {
