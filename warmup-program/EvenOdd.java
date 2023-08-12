@@ -1,3 +1,6 @@
+/**
+ * The EvenOdd class takes an integer input from the user and determines whether it is even or odd.
+ */
 import java.util.Scanner;
 
 public class EvenOdd{
