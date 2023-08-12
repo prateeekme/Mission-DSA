@@ -1,3 +1,6 @@
+/**
+ * The PalindromeString class checks if a given input string is a palindrome.
+ */
 import javax.swing.JOptionPane;
 
 public class PalindromeString {
