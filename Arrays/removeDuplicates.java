@@ -2,11 +2,14 @@
  * The removeDuplicates class removes duplicate elements from an array of integers and prints the
  * resulting array.
  */
+
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
 package Arrays;
 
 import java.util.Arrays;
 
-public class removeDuplicates {
+public class RemoveDuplicates {
 
     public static void removeDup(int[] nums) {
 
