@@ -1,3 +1,7 @@
+/**
+ * The removeDuplicates class removes duplicate elements from an array of integers and prints the
+ * resulting array.
+ */
 package Arrays;
 
 import java.util.Arrays;
