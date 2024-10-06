@@ -13,7 +13,6 @@ Input: root = [4,2,7,1,3], val = 5
 Output: []
 
 Constraints:
-
 The number of nodes in the tree is in the range [1, 5000].
 1 <= Node.val <= 107
 root is a binary search tree.
