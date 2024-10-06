@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Tree;
 
 /*
 You are given the root node of a binary search tree (BST) and a value to insert into the tree. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
@@ -32,6 +32,8 @@ All the values Node.val are unique.
 -108 <= val <= 108
 It's guaranteed that val does not exist in the original BST.
  */
+
+import Codopedia.Tree.TreeNode;
 
 public class insert_into_bst {
 

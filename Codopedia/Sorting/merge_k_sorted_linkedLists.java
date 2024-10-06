@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Sorting;
 
 /*
     You are given an array of k linked-lists, each linked-list is sorted in ascending order.

@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Sorting;
 
 /*
     Given an array nums with n objects colored red, white, or blue,

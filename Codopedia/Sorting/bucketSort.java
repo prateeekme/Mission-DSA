@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Sorting;
 
 import java.util.Arrays;
 

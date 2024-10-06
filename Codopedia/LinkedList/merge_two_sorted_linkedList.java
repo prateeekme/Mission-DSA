@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.LinkedList;
 
 /*
  * Merge Two Sorted Linked Lists - Solved

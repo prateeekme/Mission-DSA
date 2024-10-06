@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Tree;
 
 /*
 Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
@@ -34,6 +34,8 @@ root is a valid binary search tree.
 
 Follow up: Could you solve it with time complexity O(height of tree)?
  */
+
+import Codopedia.Tree.TreeNode;
 
 public class delete_node_in_bst {
 
