@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Sorting;
 
 /*
 Quick Sort

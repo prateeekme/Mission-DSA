@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.BinarySearch;
 
 /*
 You are given an m x n integer matrix with the following properties:

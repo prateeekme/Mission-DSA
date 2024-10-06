@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Array;
 
 /*
  * Problem Statement: Valid Parentheses

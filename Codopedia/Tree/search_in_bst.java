@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Tree;
 
 /*
 You are given the root of a binary search tree (BST) and an integer val.
@@ -21,19 +21,19 @@ root is a binary search tree.
  */
 
 // Class for a binary tree node
-class TreeNode {
+class TreeNodeSearch {
     int val;
-    TreeNode left;
-    TreeNode right;
+    TreeNodeSearch left;
+    TreeNodeSearch right;
 
-    TreeNode() {
+    TreeNodeSearch() {
     }
 
-    TreeNode(int val) {
+    TreeNodeSearch(int val) {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    TreeNodeSearch(int val, TreeNodeSearch left, TreeNodeSearch right) {
         this.val = val;
         this.left = left;
         this.right = right;
@@ -41,7 +41,7 @@ class TreeNode {
 }
 
 class search_in_bst {
-    public TreeNode searchBST(TreeNode root, int val) {
+    public TreeNodeSearch searchBST(TreeNodeSearch root, int val) {
         if (root == null || root.val == val) {
             return root;
         }
@@ -56,11 +56,11 @@ class search_in_bst {
     // Main method to test searchBST
     public static void main(String[] args) {
         // Constructing a binary search tree (BST)
-        TreeNode node4 = new TreeNode(4);
-        TreeNode node2 = new TreeNode(2);
-        TreeNode node7 = new TreeNode(7);
-        TreeNode node1 = new TreeNode(1);
-        TreeNode node3 = new TreeNode(3);
+        TreeNodeSearch node4 = new TreeNodeSearch(4);
+        TreeNodeSearch node2 = new TreeNodeSearch(2);
+        TreeNodeSearch node7 = new TreeNodeSearch(7);
+        TreeNodeSearch node1 = new TreeNodeSearch(1);
+        TreeNodeSearch node3 = new TreeNodeSearch(3);
 
 
         node2.left = node1;
@@ -73,7 +73,7 @@ class search_in_bst {
 
         // Test searchBST
         int searchValue = 12;
-        TreeNode result = search_in_bst.searchBST(node4, searchValue);
+        TreeNodeSearch result = search_in_bst.searchBST(node4, searchValue);
 
         if (result != null) {
             System.out.println("Found node with value: " + result.val);
