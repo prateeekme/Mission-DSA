@@ -1,4 +1,4 @@
-package Codopedia;
+package Codopedia.Recursion;
 
 /*
  * Reverse a Linked List - Solved
