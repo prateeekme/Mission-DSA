@@ -11,6 +11,7 @@ public class countNumberOfIslands {
         if (grid.length == 0) {
             return 0;
         }
+        int temp = 0;
         int count = 0;
         n = grid.length;
         m = grid[0].length;
@@ -18,8 +19,10 @@ public class countNumberOfIslands {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (grid[i][j] == '1') {
+                    ++temp;
                     dfsMethod(grid, i, j);
                     ++count;
+
                 }
             }
         }
